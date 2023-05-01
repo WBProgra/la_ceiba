@@ -1,1 +1,3 @@
-# la_ceiba
+## Getting Started
+
+Use Node v18
