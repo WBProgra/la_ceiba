@@ -8,7 +8,7 @@ const createEmpleadosTable = async () => {
     await ProductsCategory.sync({ alter: true });
     console.log("Migrations created!!");
   } catch (error) {
-    console.error("Migrations Fail D:", error);
+    console.error("Migrations Fail", error);
   }
 };
 

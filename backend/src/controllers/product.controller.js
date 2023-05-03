@@ -16,7 +16,7 @@ export const getProduct = async (req, res) => {
     console.log(error);
     return res
       .status(500)
-      .json({ message: "Error getting request to backend D:" });
+      .json({ message: "Error getting request to backend" });
   }
 };
 
@@ -67,7 +67,7 @@ export const deleteProduct = async (req, res) => {
     console.log(error);
     return res
       .status(500)
-      .json({ message: "Error getting request to backend D:" });
+      .json({ message: "Error getting request to backend" });
   }
 };
 
@@ -110,7 +110,7 @@ export const viewProduct = async (req, res) => {
     console.log(error);
     return res
       .status(500)
-      .json({ message: "Error getting request to backend D:" });
+      .json({ message: "Error getting request to backend" });
   }
 };
 
@@ -158,6 +158,6 @@ export const updateProduct = async (req, res) => {
     console.log(error);
     return res
       .status(500)
-      .json({ message: "Error getting request to backend D:" });
+      .json({ message: "Error getting request to backend" });
   }
 };

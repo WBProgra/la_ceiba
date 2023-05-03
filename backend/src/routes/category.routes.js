@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getCategory, deleteCategory, postCategory, viewCategory, updateCategory } from "../controllers/category.contorller.js";
+import { getCategory, deleteCategory, postCategory, viewCategory, updateCategory } from "../controllers/category.controller.js";
 
 const router = Router();
 router.get("/category", getCategory);
